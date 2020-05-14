@@ -12,3 +12,10 @@
         </details>
     </div>
 </div>
+<?php echo add_category(); 
+
+?>
+
+
+
+

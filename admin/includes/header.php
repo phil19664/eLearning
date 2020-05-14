@@ -1,3 +1,4 @@
+<?php include("includes/function.php"); ?>
 <div id="header">
     <div id='logo'>
         <h2><a href='index.php'>acaBASE</a>
