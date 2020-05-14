@@ -1,0 +1,50 @@
+@charset "utf-8";
+*{margin: 0; padding: 0; font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+#header {
+    width:100%;
+    height: 60px;
+    background: #101935;
+}
+
+#logo { width:20%; height:60px; float:left;}
+#logo h2{ text-align: center; line-height: 60px;}
+#logo h2 a{ text-decoration: none; color: #f2fdff; text-shadow: 3px 3px 3px #000;}
+#logo h2 a:hover { color: #9ad4d6;}
+
+
+
+#title { width:60%; height:60px; float:left;}
+#title h2 { color: #f2fdff; text-align: center; text-shadow: 3px 3px 3px #000; line-height: 60px;}
+
+#link { width:20%; height:60px; float:left;}
+#link h3 { text-align: center; line-height: 60px;}
+#link h3 a{ text-decoration:none; color: #f2fdff;  text-shadow: 3px 3px 3px #000; line-height: 60px; display: block;}
+#link h3 a:hover { color: #9ad4d6; background: #74889e;}
+
+
+
+#bodyleft { width:20%; height:550px; background: #565d72; float: left; overflow-y:auto;}
+#bodyleft h3{margin-bottom: 2%; line-height: 30px; font-weight: normal; color: #fff; text-align: center; font-size: 12px; background: #74889e; height:30px;}
+#bodyleft ul{ list-style-type: none;}
+#bodyleft ul li { width: 100%; height: 30px; line-height: 30px; padding-left: 5%; box-shadow: border;}
+#bodyleft ul li a{ display: block; text-decoration: none; color:#fff; font-size: 12px; }
+#bodyleft ul li:hover { background: #74889e;}
+#bodyleft ul li a:hover { color: #9ad4d6;}
+
+#bodyright { width:80%; height:550px; background: #fff; float: left; overflow-y:auto;}
+#bodyright h3{margin-bottom: 2%; line-height: 30px; font-weight: normal; color: #fff; text-align: center; font-size: 12px; background: #74889e; height:30px;}
+
+
+#add { width:60%; margin: auto; padding:2%; box-sizing: border-box;}
+#add details  summary{ cursor: pointer; text-align: center; outline: none; width: 100%; height: 30px; line-height: 30px; color: #101935; border: 1px solid #101935; font-size:12px;}
+#add details  form{ background: #74889e; padding: 3%; box-sizing: border-box;}
+#add details  form input{ margin-bottom: 2%; font-size:13px; width:100%; height: 30px; outline: none; padding-left: 3%; box-sizing: border-box;}
+#add details  form button {color:#f2fdff; width:40%; height: 30px; font-size:13px; background:none; outline:none; border: 2px solid #9ad4d6; border-radius: 5px;}
+#add details  form button:hover { cursor:pointer; background: #ffffff; color: #0b122f}
+
+
+
+
+
